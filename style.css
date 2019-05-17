@@ -1,0 +1,33 @@
+/*
+Theme Name: advance-blog child
+Theme URL: https://www.petersweb.me.uk
+Description: advance-blog child Theme for MAY JAMES
+Author: Peters Web
+Version: 1.0.1
+Template: advance-blog
+GitHub Theme URI: https://github.com/Petersweb/advance-blog-child
+*/
+#site-navigation {
+  background-color: black;
+}
+.main-navigation .menu ul li a {
+	color: white;
+}
+.site-footer{
+	background-color: black ;
+}
+.site-footer .wrapper {
+	color: white ;
+}
+.site-footer .wrapper a{
+	color: white ;
+}
+.style-archive .post-content {
+	background-color: #F0F0F0;
+}
+.widget.widget_recent_comments li a, .widget.widget_pages li a, .widget.social-widget-menu li a, .widget.widget_archive li a, .widget.widget_meta li a, .widget.widget_categories li, .widget.widget_nav_menu li a, .widget.widget_recent_entries li a {
+    float: right;
+    display: FLEX;
+    width: 20%;
+    border-bottom: none;
+}
