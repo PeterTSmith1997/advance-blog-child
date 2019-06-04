@@ -1,9 +1,9 @@
 /*
-Theme Name: advance-blog child
+Theme Name: May James
 Author URL: https://www.petersweb.me.uk
 Description: advance-blog child Theme for MAY JAMES
 Author: Peters Web
-Version: 1.0.6.1
+Version: 1.0.6.2
 Template: advance-blog
 GitHub Theme URI: https://github.com/Petersweb/advance-blog-child 
 License:      GNU General Public License v2 or later
@@ -48,7 +48,9 @@ Text Domain: advance-blog-child
 	background-color: #F0F0F0;
 }
 /* position footer items*/
-.widget.widget_recent_comments li a, .widget.widget_pages li a, .widget.social-widget-menu li a, .widget.widget_archive li a, .widget.widget_meta li a, .widget.widget_categories li, .widget.widget_nav_menu li a, .widget.widget_recent_entries li a {
+.widget.widget_recent_comments li a, .widget.widget_pages li a, .widget.social-widget-menu li a,
+.widget.widget_archive li a, .widget.widget_meta li a, .widget.widget_categories li, 
+.widget.widget_nav_menu li a, .widget.widget_recent_entries li a {
     float: right;
     display: FLEX;
     width: 20%;
