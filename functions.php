@@ -19,7 +19,7 @@ function myprefix_add_form_to_posts( $content ) {
     
     // Check if this is a single post. 
     if ( is_singular( 'post' ) ) {
-        $content .="<p>Since you're here join my newsletter.</p>"
+        $content .= "<p>Since you're here join my newsletter.</p>";
         // Add the form to the end of the post content.
         $content .= mc4wp_get_form( $form_id );
         
